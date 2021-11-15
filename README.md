@@ -2,6 +2,7 @@
 This is the repo for my senior design project to develop an AI that would be capable of determining blood serum potassium values given an ECG.
 
 Aspects of the program:
+
   The project used the pytorch library for creating the AI instance that would analyze the incoming image.
   Each image was processed to standardize the input file.
   Signal processing was handled using matlab to transfer the ECG into a digital format and then convert the signal into a visual graph.
