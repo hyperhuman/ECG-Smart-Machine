@@ -12,7 +12,7 @@ Aspects of the program:
 Things to note:
   1. The final version was never tested using a patient dataset, although attempts were made to acquire access.
   2. The signal processing of an ECG signal and converting it into a usable graph still requires further tweaking.
-      a. Currently, we were able to get readings from our ECG we made though the signal was experiencing some noise.
-      b. Due to the noise and variance of signal output, our ability to transfer the live data into the CNN was limited.
-      c. We did try to use a standard ECG algorithm for this purpose and did get an acceptable output to feed the CNN, but did not get enough to train.
+     a. Currently, we were able to get readings from our ECG we made though the signal was experiencing some noise.
+     b. Due to the noise and variance of signal output, our ability to transfer the live data into the CNN was limited.
+     c. We did try to use a standard ECG algorithm for this purpose and did get an acceptable output to feed the CNN, but did not get enough to train.
   3. The current state of the CNN is operational, but please consider these above points as they do pose potential problems with furthering of this project.
